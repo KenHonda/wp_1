@@ -1,0 +1,75 @@
+@charset "UTF-8";
+@font-face{font-family: 'EBGaramond'; src: url('../EBGaramond.ttf')format("truetype");}
+h1,h2,h3,h4,h5,h6 {font-size: 100%;}
+html {font-size: 62.5%;}
+body {margin: 0; font-size: 1.4em;  font-family: 'EBGaramond',serif; font-weight: 300; font-style: normal; letter-spacing: 1px; color: #5e5e5e;}
+br{letter-spacing: normal;}
+a{text-decoration: none;}
+#loader-bg {display: none; position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background: #fff; z-index: 11;}
+#loader {display: none; position: fixed; top: 50%; left: 50%; width: 200px; height: 200px; margin-top: -70px; margin-left: -100px; text-align: center; color: #fff; z-index: 12;}
+/*------------
+header
+------------*/
+#header{font-family: 'MS ゴシック',sans-serif; width: 100%; height: 65px; vertical-align: middle; background-color: #fff; color: #5e5e5e; font-size: 1.2rem;}
+.header_cont{height: 65px; vertical-align: middle;}
+.logo_wrap{float: left; vertical-align: middle; padding-left: 12px; padding-top: 12px;}
+.logo_1{width: 130px; vertical-align: middle;}
+.logo_a{width: 130px; height: 65px; vertical-align: middle;}
+.menu_1_wrap{float: right; margin-right: 20px; position: relative; width: 130px; height: 65px; text-align: center;}
+.menu_2_wrap{float: right; position: relative; width: 130px; height: 65px; text-align: center;}
+.menu_3_wrap{float: right; position: relative; width: 130px; height: 65px; text-align: center;}
+.menu_4_wrap{float: right; position: relative; width: 130px; height: 65px; text-align: center;}
+.menu_5_wrap{float: right; position: relative; width: 130px; height: 65px; text-align: center;}
+.menu_1_wrap:after{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; right: 0; bottom: 0; margin: auto;}
+.menu_1_wrap:before{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; left: 0; bottom: 0; margin: auto;}
+.menu_2_wrap:before{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; left: 0; bottom: 0; margin: auto;}
+.menu_3_wrap:before{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; left: 0; bottom: 0; margin: auto;}
+.menu_4_wrap:before{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; left: 0; bottom: 0; margin: auto;}
+.menu_5_wrap:before{content: ""; position: absolute; width: 1px; height: 30%; background-color: #5e5e5e; top: 0; left: 0; bottom: 0; margin: auto;}
+.menu_1{color: #5e5e5e; width: 130px; height: 65px; display: table-cell; vertical-align: middle;}
+.menu_2{color: #5e5e5e; width: 130px; height: 65px; display: table-cell; vertical-align: middle;}
+.menu_3{color: #5e5e5e; width: 130px; height: 65px; display: table-cell; vertical-align: middle;}
+.menu_4{color: #5e5e5e; width: 130px; height: 65px; display: table-cell; vertical-align: middle;}
+.menu_5{color: #5e5e5e; width: 130px; height: 65px; display: table-cell; vertical-align: middle;}
+.menu_1:hover{}
+.menu_2:hover{}
+.menu_3:hover{}
+.menu_4:hover{}
+.menu_5:hover{}
+.menu_fix_1{}
+.menu_fix_2{}
+.menu_fix_3{}
+.menu_fix_4{}
+.menu_fix_5{}
+.menu_1_1{display: block; font-size: 0.5rem;}
+.menu_2_1{display: block; font-size: 0.5rem;}
+.menu_3_1{display: block; font-size: 0.5rem;}
+.menu_4_1{display: block; font-size: 0.5rem;}
+.menu_5_1{display: block; font-size: 0.5rem;}
+/*post*/
+.post_wrap_1{width: 635px; margin: 50px auto;}
+.post_title_1{display: inline-block; font-size: 1.7rem}
+.time_1{display: inline-block; padding-left: 10px; font-size: 1.4rem}
+.post_sent{font-size: 1.4rem; clear: both; margin-top: 60px; line-height: 2}
+/*contact*/
+.contact_block_wrap{width: 635px; margin: 120px auto 0px;}
+.contact_title_1{font-family: 'MS ゴシック',sans-serif; font-size: 2rem; letter-spacing: 7px; text-decoration: underline; width: 177px; margin: 50px auto 0px}
+.radio_wrap{}
+.radio_cont{margin-top: 40px;}
+.labe_1{}
+.labe_2{}
+.radio_text_1{}
+.radio_text_2{}
+.group_1_wrap{margin-top: 20px;}
+.group_1{width: 180px;}
+.name_1_wrap{margin-top: 10px;}
+.name_1{width: 180px;}
+.textarea_1_wrap{margin-top: 50px;}
+.textarea_1{}
+.submit_1{display: block; width: 250px; margin: 100px auto; text-align: center; font-size: 1.2rem; background-color: #5e5e5e; color: #fff; border-style: none; padding-top: 17px; padding-bottom: 17px; letter-spacing: 1px; cursor: pointer;}
+.back_wrap{width: 90%; margin: 0 auto; padding-right: 10px;}
+#pageTop{margin-left: auto; margin-right: 20px; margin-bottom: 16px; cursor: pointer; width: 0px; height: 0px; border-top: 14px solid transparent; border-left: 12px solid transparent; border-right: 12px solid transparent; border-bottom: 14px solid #5e5e5e;}
+.back{text-decoration: none; color: #5e5e5e}
+#footer{width: 90%; border-top: 1px solid #b5b5b5; margin: 0 auto;}
+.footer_cont{text-align: right;}
+.footer_sent_1{font-size: 1.2rem; padding-top: 20px; padding-bottom: 20px; padding-right: 10px; text-align: right;}
